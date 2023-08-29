@@ -6,10 +6,11 @@
     department_id : valid department id 
 3. configure rate limit to prevent multiple access from same user between 5 seconds
 4. write integration tests for the api
-*/
 
 # Test 
 http://localhost:3000/employee
+
+```
 {
     "employee_id": null,
     "first_name": "rahul",
@@ -17,3 +18,4 @@ http://localhost:3000/employee
     "department_id": 1,
     "email_address": "rahul@gmail.com"
 }
+```
