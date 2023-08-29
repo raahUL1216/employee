@@ -7,7 +7,13 @@
 3. configure rate limit to prevent multiple access from same user between 5 seconds
 4. write integration tests for the api
 
-# Test 
+# Run server
+npm run start
+
+# Run tests
+npm run test
+
+# Test employee create/update API
 http://localhost:3000/employee
 
 ```
